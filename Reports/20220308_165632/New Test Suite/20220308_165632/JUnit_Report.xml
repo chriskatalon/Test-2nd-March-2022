@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="47.505" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="47.505" skipped="0" timestamp="2022-03-08 16:56:34" hostname="quan.trinh - GF0X2D3" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\quan.trinh\\git\\Test-2nd-March-2022\\Test-2nd-March-2022\\Reports\\20220308_165632\\New Test Suite\\20220308_165632"/>
+         <property name="logFiles" value="C:\\Users\\quan.trinh\\git\\Test-2nd-March-2022\\Test-2nd-March-2022\\Reports\\20220308_165632\\New Test Suite\\20220308_165632\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="quan.trinh - GF0X2D3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.0.113"/>
+         <property name="sessionId" value="8a74c5fdb90163711c3c917b0d05dfdf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigate to google" time="39.115" classname="Test Cases/Navigate to google" status="PASSED">
+         <system-out><![CDATA[2022-03-08 16:56:34 - [TEST_CASE][PASSED] - Test Cases/Navigate to google: Test Cases/Navigate to google
+
+2022-03-08 16:56:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-08 16:56:35 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-03-08 16:56:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-08 16:56:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-08 16:56:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/?gws_rd=ssl"): Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2022-03-08 16:56:40 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2022-03-08 16:56:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Google/img_Sign in_lnXdpd"), ""): Actual text and expected text of test object 'Object Repository/Page_Google/img_Sign in_lnXdpd' are matched.
+
+2022-03-08 16:57:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //img[@alt='Google']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-08 16:57:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Google/img_Sign in_lnXdpd'. Try using Self-healing.
+
+2022-03-08 16:57:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//img[@alt='Google']'.
+
+2022-03-08 16:57:11 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//img'.
+
+2022-03-08 16:57:12 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/quan.trinh/git/Test-2nd-March-2022/Test-2nd-March-2022/Reports/Self-healing/Object Repository/Page_Google/img_Sign in_lnXdpd_position.png
+
+2022-03-08 16:57:12 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Google/img_Sign in_lnXdpd' was broken. Propose an alternative one: '//img'.
+
+2022-03-08 16:57:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Google/img_Sign in_lnXdpd' are matched.
+
+2022-03-08 16:57:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Google/input__q"), "katalon"): Text 'katalon' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-03-08 16:57:12 - [MESSAGE][PASSED] - Text 'katalon' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-03-08 16:57:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q'
+
+2022-03-08 16:57:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search" time="8.124" classname="Test Cases/Search" status="PASSED">
+         <system-out><![CDATA[2022-03-08 16:57:13 - [TEST_CASE][PASSED] - Test Cases/Search: Test Cases/Search
+
+2022-03-08 16:57:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-08 16:57:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-08 16:57:14 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-03-08 16:57:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-08 16:57:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-08 16:57:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/?gws_rd=ssl"): Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2022-03-08 16:57:17 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2022-03-08 16:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Google/input__q"), "katalon "): Text 'katalon ' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-03-08 16:57:17 - [MESSAGE][PASSED] - Text 'katalon ' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-03-08 16:57:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q'
+
+2022-03-08 16:57:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q'
+
+2022-03-08 16:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_katalon - Google Search/a_Images")): Object: 'Object Repository/Page_katalon - Google Search/a_Images' is clicked on
+
+2022-03-08 16:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_katalon - Google Search/a_Images' is clicked on
+
+2022-03-08 16:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_katalon - Google Search/span_More")): Object: 'Object Repository/Page_katalon - Google Search/span_More' is clicked on
+
+2022-03-08 16:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_katalon - Google Search/span_More' is clicked on
+
+2022-03-08 16:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_katalon - Google Search/div_Tools")): Object: 'Object Repository/Page_katalon - Google Search/div_Tools' is clicked on
+
+2022-03-08 16:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_katalon - Google Search/div_Tools' is clicked on
+
+2022-03-08 16:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_katalon - Google Search/svg_Size_H1KrKd wU8otb")): Object: 'Object Repository/Page_katalon - Google Search/svg_Size_H1KrKd wU8otb' is clicked on
+
+2022-03-08 16:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_katalon - Google Search/svg_Size_H1KrKd wU8otb' is clicked on
+
+2022-03-08 16:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_katalon - Google Search/span_Large")): Object: 'Object Repository/Page_katalon - Google Search/span_Large' is clicked on
+
+2022-03-08 16:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_katalon - Google Search/span_Large' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-08 16:56:34 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

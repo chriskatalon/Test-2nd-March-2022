@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 99.0.4844.51,,,2022-03-08 16:56:34,2022-03-08 16:57:22,47.505s,PASSED
+,,,,,,,
+Test Cases/Navigate to google,Chrome 99.0.4844.51,,,2022-03-08 16:56:34,2022-03-08 16:57:13,39.115s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-08 16:56:35,2022-03-08 16:56:37,2.151s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Chrome 99.0.4844.51,,,2022-03-08 16:56:37,2022-03-08 16:56:40,3.412s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Google/img_Sign in_lnXdpd""), """")",Chrome 99.0.4844.51,,,2022-03-08 16:56:40,2022-03-08 16:57:12,31.370s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""katalon"")",Chrome 99.0.4844.51,,,2022-03-08 16:57:12,2022-03-08 16:57:12,0.260s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 99.0.4844.51,,,2022-03-08 16:57:12,2022-03-08 16:57:13,1.628s,PASSED
+,,,,,,,
+Test Cases/Search,Chrome 99.0.4844.51,,,2022-03-08 16:57:13,2022-03-08 16:57:22,8.124s,PASSED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-08 16:57:14,2022-03-08 16:57:16,1.813s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Chrome 99.0.4844.51,,,2022-03-08 16:57:16,2022-03-08 16:57:17,1.148s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""katalon "")",Chrome 99.0.4844.51,,,2022-03-08 16:57:17,2022-03-08 16:57:17,0.254s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 99.0.4844.51,,,2022-03-08 16:57:17,2022-03-08 16:57:18,1.346s,PASSED
+"click(findTestObject(""Object Repository/Page_katalon - Google Search/a_Images""))",Chrome 99.0.4844.51,,,2022-03-08 16:57:18,2022-03-08 16:57:20,1.398s,PASSED
+"click(findTestObject(""Object Repository/Page_katalon - Google Search/span_More""))",Chrome 99.0.4844.51,,,2022-03-08 16:57:20,2022-03-08 16:57:20,0.118s,PASSED
+"click(findTestObject(""Object Repository/Page_katalon - Google Search/div_Tools""))",Chrome 99.0.4844.51,,,2022-03-08 16:57:20,2022-03-08 16:57:20,0.119s,PASSED
+"click(findTestObject(""Object Repository/Page_katalon - Google Search/svg_Size_H1KrKd wU8otb""))",Chrome 99.0.4844.51,,,2022-03-08 16:57:20,2022-03-08 16:57:20,0.132s,PASSED
+"click(findTestObject(""Object Repository/Page_katalon - Google Search/span_Large""))",Chrome 99.0.4844.51,,,2022-03-08 16:57:20,2022-03-08 16:57:22,1.532s,PASSED
